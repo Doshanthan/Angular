@@ -1,0 +1,76 @@
+.app__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+.app__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: start; */
+    width: 50%;
+    height: 50vh;
+    background-color: rgba(36, 173, 118, 0.5);
+    border-radius: 20px;
+    
+}
+
+.app__title {
+    font-size: 60px;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+
+.app__add {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    border-radius: 20px;
+    width: 100%;
+   
+}
+.app__input{
+    /* /* display: flex; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: none;
+    border-radius: 20px;
+    margin-left:150px;
+    margin-top: 10px;
+    padding:15px 80px;
+    /* width:200px;  */
+   background-color: white;
+   
+    
+}
+.app__add__button__container {
+    width: 12vw;
+}
+.app__add__button {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    padding: 20px 50px;
+    cursor: pointer;
+    
+}
+.app__add__button:hover {
+    background-color: rgb(152, 105, 105);
+}
+
+
+.app__data {
+    width: 90%;
+    padding-top: 24px;
+    
+}
